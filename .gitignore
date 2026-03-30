@@ -1,0 +1,35 @@
+# Build artifacts
+assignment3/pipeline
+assignment3/benchmark
+assignment3/bench_e2e
+assignment3/bench_clean
+*.o
+
+# Output
+assignment3/output/
+
+# Profiling
+*.nsys-rep
+*.sqlite
+*.qdrep
+
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.toc
+
+# Docs
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.tar.gz
